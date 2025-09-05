@@ -1,3 +1,4 @@
+```
 const safeFileName = this.sanitizeFileName(originalname);
 const fileExtension = safeFileName.split('.').pop();
 const fileName = Date.now() + Math.random().toString(16).slice(2) + '.' + fileExtension;
@@ -24,3 +25,4 @@ private sanitizeFileName(originalName: string): string {
   
   return sanitized;
 }
+```
